@@ -11,31 +11,31 @@ const Navbar = () => {
       <div className="flex justify-center items-center gap-8">
         <a
           className="text-md font-medium text-foreground capitalize hover:text-primary transition-colors duration-300"
-          href=""
+          href="#hero"
         >
           home
         </a>
         <a
           className="text-md font-medium text-foreground capitalize hover:text-primary transition-colors duration-300"
-          href=""
+          href="#working"
         >
           how it works
         </a>
         <a
           className="text-md font-medium text-foreground capitalize hover:text-primary transition-colors duration-300"
-          href=""
+          href="#aboutus"
         >
           about us
         </a>
         <a
           className="text-md font-medium text-foreground capitalize hover:text-primary transition-colors duration-300"
-          href=""
+          href="#testimonial"
         >
           blog
         </a>
         <a
           className="text-md font-medium text-foreground capitalize hover:text-primary transition-colors duration-300"
-          href=""
+          href="#conatct"
         >
           contact
         </a>

@@ -4,7 +4,7 @@ import MiniCard from "../elements/MiniCard";
 
 const Hero = () => {
   return (
-    <div className="relative bg-background h-screen space-y-12 py-12 overflow-hidden">
+    <section id="hero" className="relative bg-background h-screen space-y-12 py-12 overflow-hidden">
       {/* bg-layer */}
       <CircularLayer pos1={"-top-[40%]"} pos2={"-left-[10%]"}></CircularLayer>
       <CircularLayer pos1={"-top-[30%]"} pos2={"-right-[10%]"}></CircularLayer>
@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="flex justify-center items-center gap-2">
           <div className="flex md:flex-1/2 flex-col gap-8">
             <h1 className="md:text-6xl font-semibold">
-              Providing <br />{" "}
+              Providing <br />
               <span className="text-primary">Freshh Produce </span>
               <br />
               Every Day
@@ -64,7 +64,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
