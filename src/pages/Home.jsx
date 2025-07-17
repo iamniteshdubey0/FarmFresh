@@ -1,3 +1,4 @@
+import Footer from "../components/global/Footer";
 import Navbar from "../components/global/Navbar";
 import AboutUs from "../components/section/AboutUs";
 import Blog from "../components/section/Blog";
@@ -23,6 +24,7 @@ const Home = () => {
       {/* Newsletter */}
       <NewsLetter></NewsLetter>
       {/* Footer */}
+      <Footer></Footer>
     </main>
   );
 };
